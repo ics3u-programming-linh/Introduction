@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Created by: Linh Ho
+ * Created on: Sept. 6th, 2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #4 - Program with Menu
+ * This program displays my favourite tv show with
+ * an actress and has an exit menu
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +43,7 @@ namespace ProgramMenuLinh
 
         private void MniExit_Click(object sender, EventArgs e)
         {
+            // this will cose the program
             this.Close();
         }
     }
