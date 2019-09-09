@@ -1,0 +1,10 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\bin\Debug\HelloIntLinh.exe.config
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\bin\Debug\HelloIntLinh.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\bin\Debug\HelloIntLinh.pdb
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\obj\Debug\HelloIntLinh.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\obj\Debug\HelloIntLinh.frmHelloInt.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\obj\Debug\HelloIntLinh.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\obj\Debug\HelloIntLinh.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\obj\Debug\HelloIntLinh.csproj.CoreCompileInputs.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\obj\Debug\HelloIntLinh.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Introduction\HelloIntLinh\HelloIntLinh\obj\Debug\HelloIntLinh.pdb
