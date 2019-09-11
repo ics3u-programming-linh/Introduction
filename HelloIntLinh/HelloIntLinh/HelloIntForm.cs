@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Created by: Linh Ho
+ * Created on: September 9th, 2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #6 - Hello World International 
+ * This program displays the greeting Hello World! in
+ * different languages depending on which radio button is clicked
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,6 +48,11 @@ namespace HelloIntLinh
         {
             // Change the greeting to Vietnamese 
             this.lblGreeting.Text = "Xin Chao";
+        }
+
+        private void FrmHelloInt_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

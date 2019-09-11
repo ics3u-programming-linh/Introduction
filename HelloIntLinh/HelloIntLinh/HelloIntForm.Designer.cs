@@ -30,10 +30,10 @@
         {
             this.lblGreeting = new System.Windows.Forms.Label();
             this.grbGreetings = new System.Windows.Forms.GroupBox();
-            this.radEnglish = new System.Windows.Forms.RadioButton();
-            this.radSpanish = new System.Windows.Forms.RadioButton();
-            this.radVietnamese = new System.Windows.Forms.RadioButton();
             this.radFrench = new System.Windows.Forms.RadioButton();
+            this.radVietnamese = new System.Windows.Forms.RadioButton();
+            this.radSpanish = new System.Windows.Forms.RadioButton();
+            this.radEnglish = new System.Windows.Forms.RadioButton();
             this.grbGreetings.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,29 +61,17 @@
             this.grbGreetings.TabStop = false;
             this.grbGreetings.Text = "Language";
             // 
-            // radEnglish
+            // radFrench
             // 
-            this.radEnglish.AutoSize = true;
-            this.radEnglish.Location = new System.Drawing.Point(21, 45);
-            this.radEnglish.Name = "radEnglish";
-            this.radEnglish.Size = new System.Drawing.Size(101, 29);
-            this.radEnglish.TabIndex = 0;
-            this.radEnglish.TabStop = true;
-            this.radEnglish.Text = "English";
-            this.radEnglish.UseVisualStyleBackColor = true;
-            this.radEnglish.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged);
-            // 
-            // radSpanish
-            // 
-            this.radSpanish.AutoSize = true;
-            this.radSpanish.Location = new System.Drawing.Point(128, 45);
-            this.radSpanish.Name = "radSpanish";
-            this.radSpanish.Size = new System.Drawing.Size(108, 29);
-            this.radSpanish.TabIndex = 1;
-            this.radSpanish.TabStop = true;
-            this.radSpanish.Text = "Español";
-            this.radSpanish.UseVisualStyleBackColor = true;
-            this.radSpanish.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged_1);
+            this.radFrench.AutoSize = true;
+            this.radFrench.Location = new System.Drawing.Point(375, 45);
+            this.radFrench.Name = "radFrench";
+            this.radFrench.Size = new System.Drawing.Size(113, 29);
+            this.radFrench.TabIndex = 3;
+            this.radFrench.TabStop = true;
+            this.radFrench.Text = "Français";
+            this.radFrench.UseVisualStyleBackColor = true;
+            this.radFrench.CheckedChanged += new System.EventHandler(this.RadioButton3_CheckedChanged);
             // 
             // radVietnamese
             // 
@@ -97,17 +85,29 @@
             this.radVietnamese.UseVisualStyleBackColor = true;
             this.radVietnamese.CheckedChanged += new System.EventHandler(this.RadVietnamese_CheckedChanged);
             // 
-            // radFrench
+            // radSpanish
             // 
-            this.radFrench.AutoSize = true;
-            this.radFrench.Location = new System.Drawing.Point(375, 45);
-            this.radFrench.Name = "radFrench";
-            this.radFrench.Size = new System.Drawing.Size(113, 29);
-            this.radFrench.TabIndex = 3;
-            this.radFrench.TabStop = true;
-            this.radFrench.Text = "Français";
-            this.radFrench.UseVisualStyleBackColor = true;
-            this.radFrench.CheckedChanged += new System.EventHandler(this.RadioButton3_CheckedChanged);
+            this.radSpanish.AutoSize = true;
+            this.radSpanish.Location = new System.Drawing.Point(128, 45);
+            this.radSpanish.Name = "radSpanish";
+            this.radSpanish.Size = new System.Drawing.Size(108, 29);
+            this.radSpanish.TabIndex = 1;
+            this.radSpanish.TabStop = true;
+            this.radSpanish.Text = "Español";
+            this.radSpanish.UseVisualStyleBackColor = true;
+            this.radSpanish.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged_1);
+            // 
+            // radEnglish
+            // 
+            this.radEnglish.AutoSize = true;
+            this.radEnglish.Location = new System.Drawing.Point(21, 45);
+            this.radEnglish.Name = "radEnglish";
+            this.radEnglish.Size = new System.Drawing.Size(101, 29);
+            this.radEnglish.TabIndex = 0;
+            this.radEnglish.TabStop = true;
+            this.radEnglish.Text = "English";
+            this.radEnglish.UseVisualStyleBackColor = true;
+            this.radEnglish.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged);
             // 
             // frmHelloInt
             // 
@@ -119,6 +119,7 @@
             this.Controls.Add(this.lblGreeting);
             this.Name = "frmHelloInt";
             this.Text = "Hello, World! International by Linh H";
+            this.Load += new System.EventHandler(this.FrmHelloInt_Load);
             this.grbGreetings.ResumeLayout(false);
             this.grbGreetings.PerformLayout();
             this.ResumeLayout(false);
