@@ -31,7 +31,7 @@ namespace PerAreaVolLinhH
         private void Button1_Click(object sender, EventArgs e)
         {
             // Calculate the perimeter
-            lblAPerimeter.Text = Convert.ToString(5 * 4);
+            lblAPerimeter.Text = Convert.ToString(5 * 4) + " cm ";
         }
 
         private void FrmPerAreaVol_Load(object sender, EventArgs e)
@@ -42,7 +42,7 @@ namespace PerAreaVolLinhH
         private void Button1_Click_1(object sender, EventArgs e)
         {
             // Calculate the area of a circle
-            lblAArea.Text = Convert.ToString(Math.PI * Math.Pow(7, 2));
+            lblAArea.Text = Convert.ToString(Math.PI * Math.Pow(7, 2)) +" cm ² ";
         }
 
         private void LblAPerimeter_Click(object sender, EventArgs e)
@@ -55,10 +55,10 @@ namespace PerAreaVolLinhH
 
         }
 
-        private void BtnQVolume_Click(object sender, EventArgs e)
+        private void BtnQVolume_Click(object sender, EventArgs e) 
         {
             // Calculate the Volume of the sphere
-            lblAVolume.Text = Convert.ToString((double) 4 / (double)3 * Math.PI * Math.Pow(4, 3));
+            lblAVolume.Text = Convert.ToString((double)4 / (double)3 * Math.PI * Math.Pow(4, 3)) +" cm³ ";
         }
     }
 }
